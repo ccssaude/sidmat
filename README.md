@@ -20,4 +20,16 @@ sudo apt install -y php php-common php-cli php-gd php-mysqlnd php-curl php-intl 
 curl -sS https://getcomposer.org/installer | sudo php -- --intall-dir=/usr/bin --filename=composer
 
 #4-Git clone this repo
+Git clone https://github.com/ccssaude/sidmat.git
+ 
+#5-Install node modules
+npm install
 
+#6-Install your Vendor file run 
+composer install
+
+#7-Setup .env file
+To setup your .env, kindly duplicate your .env.example file and rename the duplicated file to .env.
+
+#8-Key Generate
+php artisan key:generate
