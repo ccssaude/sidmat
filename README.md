@@ -9,10 +9,15 @@
 
 ## Enviroment Setup
 
-<b>1-sudo update</b>
+<b>In Terminal run</b>
 
-#install php
+#1-Sudo update
+
+#2-install php
 sudo apt install -y php php-common php-cli php-gd php-mysqlnd php-curl php-intl php-mbstring php-bcmath php-xml php-zip
 
-#install composer
+#3-install composer
 curl -sS https://getcomposer.org/installer | sudo php -- --intall-dir=/usr/bin --filename=composer
+
+#4-Git clone this repo
+
