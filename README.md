@@ -9,29 +9,29 @@
 
 ## Enviroment Setup
 
-<b>In Terminal run</b>
+<b>In Terminal run</b></br>
 
-#1-Sudo update
+#1-Sudo update</br>
 
-#2-install php
+#2-install php</br>
 sudo apt install -y php php-common php-cli php-gd php-mysqlnd php-curl php-intl php-mbstring php-bcmath php-xml php-zip
 
-#3-install composer
+#3-install composer</br>
 curl -sS https://getcomposer.org/installer | sudo php -- --intall-dir=/usr/bin --filename=composer
 
-#4-Git clone this repo
+#4-Git clone this repo</br>
 Git clone https://github.com/ccssaude/sidmat.git
  
-#5-Install node modules
+#5-Install node modules</br>
 npm install
 
-#6-Install your Vendor file run 
+#6-Install your Vendor file run </br>
 composer install
 
-#7-Setup .env file
+#7-Setup .env file</br>
 To setup your .env, kindly duplicate your .env.example file and rename the duplicated file to .env.
 
-#8-Key Generate
+#8-Key Generate</br>
 php artisan key:generate
 
 #9-To start the application </br>
