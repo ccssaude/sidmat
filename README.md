@@ -33,3 +33,8 @@ To setup your .env, kindly duplicate your .env.example file and rename the dupli
 
 #8-Key Generate
 php artisan key:generate
+
+#9-To start the application 
+ php artisan serve
+
+The app will start in :<b>http://127.0.0.1:8000</b>
