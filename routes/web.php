@@ -19,4 +19,9 @@ Route::get('/e', function () {
     return view('welcome');
 });
 
-Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('Home-layout');
+//User
+Route::get('/', 'App\Http\Controllers\HomeController@index')->name('Home');
+Route::get('/sidmat-calendar', 'App\Http\Controllers\CalendarController@index')->name('Home-calendar');
+
+
+//Admin
