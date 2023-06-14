@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class NewRequestController extends Controller
+class JunhoEditRequestController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('User.Request');
+        return view ('User.RequestEdit');  
     }
 
     /**
