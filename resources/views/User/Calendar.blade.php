@@ -97,7 +97,6 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <script src="{{asset('../plugins/fullcalendar/main.js')}}"></script>
   <script>
   $(function () {
 
