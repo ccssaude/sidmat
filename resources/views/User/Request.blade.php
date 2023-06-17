@@ -32,7 +32,6 @@
               <!-- /.card-body -->
             </div>
             <!-- /.card -->
-
             <div class="card">
               <div class="card-header">
               <h3 class="card-title">Material Disponivel na logistica</h3>
@@ -52,41 +51,40 @@
                   </thead>
                   <tbody>
                   <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 4.0
+                    <td>AGENDA PARA MARCAÇÃO CONSULTAS</td>
+                    <td>Maputo Cidade 201
                     </td>
-                    <td>Win 95+</td>
+                    <td>CDC</td>
                     <td> 4</td>
                     <td>ATS</td>
                     <td> <a href="" class="btn btn-warning">Alocar</a></td>
                   </tr>
                   <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 5.0
+                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
+                    <td>202 (Zimpeto)
+                       5.0
                     </td>
-                    <td>Win 95+</td>
+                    <td>CDC</td>
                     <td>5</td>
                     <td>ATS</td>
                     <td><a href="" class="btn btn-warning">Alocar</a></td>
 
                   </tr>
                   <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 5.5
+                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
+                    <td>202 (Zimpeto)
+                       5.5
                     </td>
-                    <td>Win 95+</td>
+                    <td>CDC</td>
                     <td>5.5</td>
                     <td>APSS</td>
                     <td><a href="" class="btn btn-warning">Alocar</a></td>
 
                   </tr>
                   <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 6
+                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
+                    <td>202 (Zimpeto)
+                       6
                     </td>
                     <td>Win 98+</td>
                     <td>6</td>
@@ -95,8 +93,8 @@
 
                   </tr>
                   <tr>
-                    <td>Trident</td>
-                    <td>Internet Explorer 7</td>
+                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
+                    <td>202 (Zimpeto) 7</td>
                     <td>Win XP SP2+</td>
                     <td>7</td>
                     <td>Laboratorio</td>
@@ -104,8 +102,8 @@
 
                   </tr>
                   <tr>
-                    <td>Trident</td>
-                    <td>AOL browser (AOL desktop)</td>
+                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
+                    <td>202 (Zimpeto)</td>
                     <td>Win XP</td>
                     <td>6</td>
                     <td>Laboratorio</td>
@@ -113,36 +111,36 @@
 
                   </tr>
                   <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 1.0</td>
-                    <td>Win 98+ / OSX.2+</td>
+                    <td>AGULHA P/ SERINGA 5ML (23G)</td>
+                    <td>202 (Zimpeto) 1.0</td>
+                    <td>CDC</td>
                     <td>1.7</td>
                     <td>Laboratorio</td>
                     <td><a href="" class="btn btn-warning">Alocar</a></td>
 
                   </tr>
                   <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 1.5</td>
-                    <td>Win 98+ / OSX.2+</td>
+                    <td>AGULHA P/ SERINGA 5ML (23G)</td>
+                    <td>202 (Zimpeto) 1.5</td>
+                    <td>CDC</td>
                     <td>1.8</td>
                     <td>Laboratorio</td>
                     <td><a href="" class="btn btn-warning">Alocar</a></td>
 
                   </tr>
                   <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 2.0</td>
-                    <td>Win 98+ / OSX.2+</td>
+                    <td>AGULHA P/ SERINGA 5ML (23G)</td>
+                    <td>202 (Zimpeto) 2.0</td>
+                    <td>CDC</td>
                     <td>1.8</td>
                     <td>Laboratorio</td>
                     <td><a href="" class="btn btn-warning">Alocar</a></td>
 
                   </tr>
                   <tr>
-                    <td>Gecko</td>
-                    <td>Firefox 3.0</td>
-                    <td>Win 2k+ / OSX.3+</td>
+                    <td>AGULHA P/ SERINGA 5ML (23G)</td>
+                    <td>202 (Zimpeto) 3.0</td>
+                    <td>CDC</td>
                     <td>1.9</td>
                     <td>Laboratorio</td>
                     <td><a href="" class="btn btn-warning">Alocar</a></td>

@@ -447,8 +447,7 @@
                 </a>
               </li>
             </ul>
-          </li>
-          
+          </li>         
             
           </li>
           
@@ -458,6 +457,8 @@
     </div>
     <!-- /.sidebar -->
   </aside>
+
+
 
   @yield('content')
 
