@@ -23,6 +23,7 @@ Route::get('/e', function () {
 Route::get('/', 'App\Http\Controllers\HomeController@index')->name('Home');
 Route::get('/sidmat-calendar', 'App\Http\Controllers\CalendarController@index')->name('Home-calendar');
 Route::get('/sidmat/newrequest', 'App\Http\Controllers\NewRequestController@index')->name('Home-request');
+Route::get('/sidmat/stock', 'App\Http\Controllers\StockController@index')->name('Home-stock');
 Route::get('/sidmat/1_Junho/Editrequest', 'App\Http\Controllers\JunhoEditRequestController@index')->name('Home-junho-edit-request');
 
 
