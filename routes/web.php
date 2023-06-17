@@ -25,6 +25,8 @@ Route::get('/sidmat-calendar', 'App\Http\Controllers\CalendarController@index')-
 Route::get('/sidmat/newrequest', 'App\Http\Controllers\NewRequestController@index')->name('Home-request');
 Route::get('/sidmat/stock', 'App\Http\Controllers\StockController@index')->name('Home-stock');
 Route::get('/sidmat/pendente', 'App\Http\Controllers\PendenteController@index')->name('Home-pendente');
+Route::get('/sidmat/enviado', 'App\Http\Controllers\SentController@index')->name('Home-enviado');
+Route::get('/sidmat/cancelado', 'App\Http\Controllers\AbortedController@index')->name('Home-cancelado');
 Route::get('/sidmat/1_Junho/Editrequest', 'App\Http\Controllers\JunhoEditRequestController@index')->name('Home-junho-edit-request');
 
 

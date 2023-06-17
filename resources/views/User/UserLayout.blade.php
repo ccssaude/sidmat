@@ -362,13 +362,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/jsgrid.html" class="nav-link">
+                <a href="{{route('Home-enviado')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p><b>Enviados</b></p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/jsgrid.html" class="nav-link">
+                <a href="{{route('Home-cancelado')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p><b>Cancelados</b></p>
                 </a>
