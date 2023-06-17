@@ -59,7 +59,7 @@
                     <td>Win 95+</td>
                     <td> 4</td>
                     <td>ATS</td>
-                    <td> <a href="{{route('Home-junho-edit-request', ['id' => $cat->id])}}" class="btn btn-warning">Alocar</a></td>
+                    <td> <a href="" class="btn btn-warning">Alocar</a></td>
                   </tr>
                   <tr>
                     <td>Trident</td>
