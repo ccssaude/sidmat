@@ -11,7 +11,7 @@ class extractController extends Controller
      */
     public function index()
     {
-        //
+       // return view('User.extracto');
     }
 
     /**
