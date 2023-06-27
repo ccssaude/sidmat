@@ -55,7 +55,7 @@
                     <td>CDC</td>
                     <td> 4</td>
                     <td>ATS</td>
-                    <td> <a href="" class="btn btn-warning">Alocar</a></td>
+                    <td> <a href="" class="btn btn-success">Registar </a></td>
                   </tr>
                   <tr>
                     <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
@@ -65,7 +65,7 @@
                     <td>CDC</td>
                     <td>5</td>
                     <td>ATS</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                   <tr>
@@ -76,7 +76,7 @@
                     <td>CDC</td>
                     <td>5.5</td>
                     <td>APSS</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                   <tr>
@@ -87,7 +87,7 @@
                     <td>Win 98+</td>
                     <td>6</td>
                     <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                   <tr>
@@ -96,7 +96,7 @@
                     <td>Win XP SP2+</td>
                     <td>7</td>
                     <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                   <tr>
@@ -105,7 +105,7 @@
                     <td>Win XP</td>
                     <td>6</td>
                     <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                   <tr>
@@ -114,7 +114,7 @@
                     <td>CDC</td>
                     <td>1.7</td>
                     <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                   <tr>
@@ -123,7 +123,7 @@
                     <td>CDC</td>
                     <td>1.8</td>
                     <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                   <tr>
@@ -132,7 +132,7 @@
                     <td>CDC</td>
                     <td>1.8</td>
                     <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                   <tr>
@@ -141,7 +141,7 @@
                     <td>CDC</td>
                     <td>1.9</td>
                     <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-warning">Alocar</a></td>
+                    <td><a href="" class="btn btn-success">Registar </a></td>
 
                   </tr>
                  
