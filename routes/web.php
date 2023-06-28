@@ -28,6 +28,6 @@ Route::get('/sidmat/stock', 'App\Http\Controllers\StockController@index')->name(
 Route::get('/sidmat/pendente', 'App\Http\Controllers\PendenteController@index')->name('Home-pendente');
 Route::get('/sidmat/enviado', 'App\Http\Controllers\SentController@index')->name('Home-enviado');
 Route::get('/sidmat/cancelado', 'App\Http\Controllers\AbortedController@index')->name('Home-cancelado');
-Route::get('/sidmat/1_Junho/Editrequest', 'App\Http\Controllers\JunhoEditRequestController@index')->name('Home-junho-edit-request');
+Route::get('/sidmat/Editrequest', 'App\Http\Controllers\JunhoEditRequestController@index')->name('Home-junho-edit-request');
 
 //Admin
