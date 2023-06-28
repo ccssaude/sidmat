@@ -57,7 +57,7 @@
                   </div>
                   <div class="form-group">
                   
-<label for="standard-select">Standard Select</label>
+<label for="standard-select">Unidade Sanitária</label>
 <div class="select">
   <select id="standard-select">
     <option value="Option 1">Option 1</option>
@@ -65,7 +65,6 @@
     <option value="Option 3">Option 3</option>
     <option value="Option 4">Option 4</option>
     <option value="Option 5">Option 5</option>
-    <option value="Option length">Option that has too long of a value to fit</option>
   </select>
   <span class="focus"></span>
 </div>
@@ -220,9 +219,6 @@
     document.querySelector("#total-progress").style.opacity = "0"
   })
 
-  // Setup the buttons for all transfers
-  // The "add files" button doesn't need to be setup because the config
-  // `clickable` has already been specified.
   document.querySelector("#actions .start").onclick = function() {
     myDropzone.enqueueFiles(myDropzone.getFilesWithStatus(Dropzone.ADDED))
   }
@@ -248,6 +244,7 @@
 select {
   appearance: none;
   background-color: transparent;
+  color:green;
   border: none;
   padding: 0 1em 0 0;
   margin: 0;
