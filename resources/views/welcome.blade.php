@@ -129,6 +129,32 @@
                             </a>
                         </div>
                     </div>
+                    
+                    <div>
+    <p>Hello</p>
+    @foreach ($apiArray as $api)
+        <ul>
+            <li>
+                {{ $api['projecto'] }}
+            </li>
+            <li>
+                {{ $api['armazem'] }}
+            </li>
+            <li>
+                {{ $api['familia'] }}
+            </li>
+            <li>
+                {{ $api['cod'] }}
+            </li>
+            <li>
+                {{ $api['descricao'] }}
+            </li>
+            <li>
+                {{ $api['qtd_stock'] }}
+            </li>
+        </ul>
+    @endforeach
+</div>
 
                     <div class="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})

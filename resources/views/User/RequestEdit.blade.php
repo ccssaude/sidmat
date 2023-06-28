@@ -33,8 +33,6 @@
                         <div class="card-header">
                             <h3 class="card-title">Dados do Material</h3>
                         </div>
-                        <!-- /.card-header -->
-                        <!-- form start -->
                         <form class="form-horizontal">
                             <div class="card-body">
                                 <div class="form-group row">
@@ -61,17 +59,16 @@
                                 </div>
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                                    <label class="form-check-label" for="exampleCheck2">Enviar para todas Unidades Sanitarias</label>
+                                    <label class="form-check-label" for="exampleCheck2">Enviar para todas Unidades
+                                        Sanitarias</label>
                                 </div>
                                 <div class="form-group">
                                     <label for="standard-select">Unidade Sanitária (1)</label>
                                     <div class="select">
                                         <select id="standard-select">
-                                            <option value="Option 1">Selecione</option>
-                                            <option value="Option 2">Option 2</option>
-                                            <option value="Option 3">Option 3</option>
-                                            <option value="Option 4">Option 4</option>
-                                            <option value="Option 5">Option 5</option>
+                                            @foreach ($apiArray as $us)
+                                            <option value="{{ $us['id'] }}">{{ $us['nome'] }}</option>
+                                            @endforeach
                                         </select>
                                         <span class="focus"></span>
                                     </div>
