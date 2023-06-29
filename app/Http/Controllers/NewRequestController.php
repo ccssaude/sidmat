@@ -11,9 +11,9 @@ class NewRequestController extends Controller
      */
     public function index()
     {
-        $entry1= Http::get('http://192.168.1.10:8070/material');
-        $apiArray1 = $entry1->json();
-        return view ('User.Request', ['apiArray1' => $apiArray1]);
+        $entry_material= Http::get('http://192.168.1.10:8070/material');
+        $apiArray_material = $entry_material->json();
+        return view ('User.Request', ['apiArray_material' => $apiArray_material]);
     }
 
     /**

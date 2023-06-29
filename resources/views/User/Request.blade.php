@@ -48,104 +48,17 @@
                   </tr>
                   </thead>
                   <tbody>
+                  @foreach ($apiArray_material as $list)
                   <tr>
-                    <td>AGENDA PARA MARCAÇÃO CONSULTAS</td>
-                    <td>Maputo Cidade 201
-                    </td>
-                    <td>CDC</td>
-                    <td> 4</td>
-                    <td>ATS</td>
-                    <td> <a href="" class="btn btn-success">Registar </a></td>
-                  </tr>
-                  <tr>
-                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
-                    <td>202 (Zimpeto)
-                       5.0
-                    </td>
-                    <td>CDC</td>
-                    <td>5</td>
-                    <td>ATS</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                  <tr>
-                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
-                    <td>202 (Zimpeto)
-                       5.5
-                    </td>
-                    <td>CDC</td>
-                    <td>5.5</td>
-                    <td>APSS</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                  <tr>
-                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
-                    <td>202 (Zimpeto)
-                       6
-                    </td>
-                    <td>Win 98+</td>
-                    <td>6</td>
-                    <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                  <tr>
-                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
-                    <td>202 (Zimpeto) 7</td>
-                    <td>Win XP SP2+</td>
-                    <td>7</td>
-                    <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                  <tr>
-                    <td>ALGORITMO DE RASTREIO DE VIOLENCIA BASEADA NO GENERO</td>
-                    <td>202 (Zimpeto)</td>
-                    <td>Win XP</td>
-                    <td>6</td>
-                    <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                  <tr>
-                    <td>AGULHA P/ SERINGA 5ML (23G)</td>
-                    <td>202 (Zimpeto) 1.0</td>
-                    <td>CDC</td>
-                    <td>1.7</td>
-                    <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                  <tr>
-                    <td>AGULHA P/ SERINGA 5ML (23G)</td>
-                    <td>202 (Zimpeto) 1.5</td>
-                    <td>CDC</td>
-                    <td>1.8</td>
-                    <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                  <tr>
-                    <td>AGULHA P/ SERINGA 5ML (23G)</td>
-                    <td>202 (Zimpeto) 2.0</td>
-                    <td>CDC</td>
-                    <td>1.8</td>
-                    <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                  <tr>
-                    <td>AGULHA P/ SERINGA 5ML (23G)</td>
-                    <td>202 (Zimpeto) 3.0</td>
-                    <td>CDC</td>
-                    <td>1.9</td>
-                    <td>Laboratorio</td>
-                    <td><a href="" class="btn btn-success">Registar </a></td>
-
-                  </tr>
-                 
-                  </tbody>
+                    <td>{{$list['descricao'] }}</td>
+                    <td>{{$list['armazem']}}</td>
+                    <td>{{$list['projecto']}}</td>
+                    <td>{{$list['qtd_stock']}}</td>
+                    <td>{{$list['area']}}</td>
+                    <td> <a href="" class="btn btn-success">Registar</a></td>
+                  </tr>   
+                  @endforeach              
+                  </tbody>                  
                   <tfoot>
                   <tr>
                     <th>Descrição</th>
