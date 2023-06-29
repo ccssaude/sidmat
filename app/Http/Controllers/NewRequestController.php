@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Request;
 
 class NewRequestController extends Controller
@@ -11,7 +11,9 @@ class NewRequestController extends Controller
      */
     public function index()
     {
-        return view('User.Request');
+        $entry1= Http::get('http://192.168.1.10:8070/material');
+        $apiArray1 = $entry1->json();
+        return view ('User.Request', ['apiArray1' => $apiArray1]);
     }
 
     /**
