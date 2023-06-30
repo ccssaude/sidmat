@@ -51,7 +51,7 @@
                   @foreach ($apiArray_material as $list)
                   <tr>
                     <td>{{$list['descricao'] }}</td>
-                    <td>{{$list->armazem['nome']}}</td>
+                    <td>{{$list['armazem']}}</td>
                     <td>{{$list['projecto']}}</td>
                     <td>{{$list['qtd_stock']}}</td>
                     <td>{{$list['area']}}</td>
