@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Request;
 
 class JunhoEditRequestController extends Controller
@@ -11,7 +11,9 @@ class JunhoEditRequestController extends Controller
      */
     public function index()
     {
-        return view ('User.RequestEdit');  
+        $entry= Http::get('http://192.168.1.10:8070/unidade_sanitaria');
+        $apiArray = $entry->json();
+        return view ('User.RequestEdit', ['apiArray' => $apiArray]);
     }
 
     /**

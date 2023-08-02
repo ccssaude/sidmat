@@ -1,19 +1,18 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Http\Request;
 
-class NewRequestController extends Controller
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
+
+class ApiController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $entry_material= Http::get('http://192.168.1.10:8070/material');
-        $apiArray_material = $entry_material->json();
-        return view ('User.Request', ['apiArray_material' => $apiArray_material]);
+        //
     }
 
     /**

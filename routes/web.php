@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Http;
 use App\Http\Controllers\HomeController;
-
+use App\Http\Controllers\ApiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +17,9 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/e', function () {
-    return view('welcome');
+    $entry= Http::get('http://192.168.1.10:8070/material');
+    $apiArray = $entry->json();
+    return view('welcome', ['apiArray' => $apiArray]);
 });
 
 //User
